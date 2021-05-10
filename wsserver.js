@@ -26,9 +26,9 @@ setInterval(sendit, 1)
 
   function sendit(){
     let arraySend = []
-
+  
    for(i = 0; i < 1 ; i++){
-
+  // the one in the for loop sets the amount of objects in the array. to add more objects, change the arguement value to greater than 1
    let eventType = ["Q","T","A","AM"]
    let ev = eventType[Math.floor(Math.random()*eventType.length)]
    let symbolLength = (Math.floor(Math.random() * 4) + 1)
